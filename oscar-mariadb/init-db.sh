@@ -1,0 +1,3 @@
+cd /oscar-db-init/mysql
+./createdatabase_bc.sh $MYSQL_USER $MYSQL_PASSWORD $MYSQL_DATABASE
+mysql -uroot -p$MYSQL_ROOT_PASSWORD -e "CREATE DATABASE drugref2 CHARACTER SET UTF8 COLLATE UTF8_GENERAL_CI;"
