@@ -6,4 +6,4 @@ This repository includes the source code for the database (mariadb) and server (
 ## Using docker-compose
 It is recommended to use `docker-compose` to get the containers up and running quickly. Just run `docker-compose up -d` and wait for 5 minutes, then OSCAR should be available on http://localhost:8091/oscar_mcmaster.
 
-The default credentials for OSCAR is oscardoc, mac2002, 1117.
+The default credentials for OSCAR is `oscardoc`, `mac2002`, `1117`.
